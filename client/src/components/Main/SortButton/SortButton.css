@@ -1,0 +1,11 @@
+.SortButton {
+    height: 6vh;
+    background-color: #303633;
+    background-image: linear-gradient(#000000, #303633);
+    border-radius: 10px;
+    font-family: "Unica One", sans-serif;
+    font-size: 4vh;
+    box-shadow: inset 6px 6px 12px #999999, inset -6px -6px 12px #777777;
+    margin-top: 10px;
+    color: #A0C4CC;
+}

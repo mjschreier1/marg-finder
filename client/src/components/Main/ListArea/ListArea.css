@@ -3,9 +3,10 @@ ul {
 }
 
 p {
-    margin: 10px 0;
+    margin: 10px 0 0;
     font-family: "Nunito", sans-serif;
     color: #ffffff;
+    text-align: left;
 }
 
 .ListItem {
@@ -23,4 +24,15 @@ p {
 
 .PaddingRight {
     padding-right: 5px;
+}
+
+.Stars {
+    padding-left: 5px;
+    margin: 0 0 10px;
+}
+
+.NoRating {
+    margin: 0 0 10px;
+    padding-left: 5px;
+    font-size: 80%;
 }

@@ -44,6 +44,15 @@ class MargMap extends Component {
 
     windowHeight = window.innerHeight;
 
+    componentDidMount() {
+        window.addEventListener("resize", () => {
+            this.windowWidth = window.innerWidth;
+            this.windowHeight = window.innerHeight;
+            this.props.toggleMap();
+            this.props.toggleMap();
+        })
+    }
+
     render() {
         return (
            <div className={classes.Map}> 
