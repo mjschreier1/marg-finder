@@ -1,0 +1,25 @@
+button {
+    height: 10vh;
+    background-color: #303633;
+    background-image: linear-gradient(#000000, #303633);
+    border-radius: 10px;
+    font-family: "Unica One", sans-serif;
+    font-size: 6vh;
+    color: #303633;
+    box-shadow: inset 6px 6px 12px #999999, inset -6px -6px 12px #777777;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #525855;
+    background-image: linear-gradient(#303633, #525855);
+}
+
+.Find {
+    color: #888DA7;
+}
+
+.Margs {
+    color: #8BE8CB
+}

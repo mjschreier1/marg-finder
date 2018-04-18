@@ -1,0 +1,31 @@
+{
+  "name": "marg_back_end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "setup": "dropdb drinks && createdb drinks && npm i && knex migrate:latest && knex seed:run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregpaulos/marg_back_end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregpaulos/marg_back_end/issues"
+  },
+  "homepage": "https://github.com/gregpaulos/marg_back_end#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "node-fetch": "^2.1.2",
+    "pg": "^7.4.1"
+  }
+}

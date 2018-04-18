@@ -1,0 +1,26 @@
+ul {
+    padding: 0;
+}
+
+p {
+    margin: 10px 0;
+    font-family: "Nunito", sans-serif;
+    color: #ffffff;
+}
+
+.ListItem {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 15px;
+    border: 1px solid #000000;
+    background-color: #303633;
+    border-radius: 5px;
+}
+
+.PaddingLeft {
+    padding-left: 5px;
+}
+
+.PaddingRight {
+    padding-right: 5px;
+}

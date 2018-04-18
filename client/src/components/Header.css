@@ -1,0 +1,28 @@
+Header {
+    height: 10%;
+    width: 100%;
+    background-color: #303633;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-family: "Unica One", sans-serif;
+    display: inline;
+    font-size: 8vh;
+}
+
+.Marg {
+    color: #8BE8CB;
+}
+
+.Finder {
+    color: #888DA7;
+}

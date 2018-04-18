@@ -1,0 +1,9 @@
+.Absolute {
+    position: absolute;
+    top: 60vh;
+    width: 100vw;
+}
+
+.Center {
+    text-align: center;
+}

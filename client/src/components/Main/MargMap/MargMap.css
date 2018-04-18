@@ -1,0 +1,14 @@
+.Map {
+    position: fixed;
+    top: 10vh;
+    z-index: 1;
+}
+
+.placeholder {
+    height: 50vh;
+    width: 100vw;
+    background-image: url('/marg.jpg');
+    background-size: auto 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
